@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * Created By : Hemant Kumar Singh Magento 2x Developer
+ */
+-->
+<page xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	layout="1column"
+	xsi:noNamespaceSchemaLocation="urn:magento:framework:View/Layout/etc/page_configuration.xsd">
+	<head>
+		<script src="Wishusucess_OwlSlider::js/common.js" async="async" />
+	</head>
+    <body>
+        <referenceBlock name="content">
+            <block class="Magento\Framework\View\Element\Template"
+            	name="proslider"
+            	template="Wishusucess_OwlSlider::slider.phtml" />
+        </referenceBlock>
+    </body>
+</page>
